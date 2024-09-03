@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    width: 100vw;
+    height: 50vh;
+    background-size: 2000%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner {
+    width: 100%;
+    height: 70%;
+    background: url(https://imagens.ebc.com.br/Y_B2T-DZtvyqfPPAb7HZ4aW5nAs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/07/24/torre_eiffel_aneis_olimpicos.jpg?itok=nSUcD4df);
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.banner div {
+    width: 90px;
+}
+.banner img {
+    width: 100%;
+}
+td {
+    width: 60px;
+    align-content: center;
+    text-align: center;
+}
+td img {
+    width: 15px;
+    margin: 2px;
+}
+.tableSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0;
+}
+.newsSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.newsDiv {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.newsDiv img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+margin-right: 30px;
+margin-top: 100px;
+}
+.newsDiv h5 {
+    font-size: 20px;
+}
+.newsDiv p {
+    font-size: 15px;
+    color: gray;
+}
+a {
+    text-decoration: none;
+}
+.buttonViewMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+}
+    body {
+font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;
+}
+h1 {
+text-align: center;
+color: #333;
+}
+table {
+width: 80%;
+margin: 0 auto;
+border-collapse: collapse;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+th, td {
+padding: 12px;
+text-align: center;
+border-bottom: 1px solid #ddd;
+}
+th {
+background-color: blue;
+color: white;
+font-size: 16px;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+tr:hover {
+background-color: #ddd;
+}
+.rank {
+font-weight: bold;
+color: green;
+}
+.country {
+text-align: left;
+padding-left: 20px;
+}
+.rank2 {
+font-weight: bold;
+color: red;
+}
+
+
+
+
+
+
+@media (max-width: 440px) {
+    body {
+        background-color: pink;
+    }
+}
+
+
+@media (min-width: 441px) and (max-width: 760px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+@media (min-width: 761px) {
+    body {
+        background-color: green;
+    }
+}
